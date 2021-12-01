@@ -5,7 +5,7 @@ UNC Bootcamp - Module 18 - Classwork
 This project was done to group and classify cryptocurrencies using unsupervised learning.  The dataset was from CryptoComare and was downloaded as a csv file.
 
 ## Deliverable 1: Preprocessing the Data for PCA
-This had several parts to clean the data.  Only cryptocurrencies which were being traded, had no null values, and values for mined coins were kept for processing.  The IsTrading column was dropped and the CoinNames were moved to a separate dataframe for later use.  The get_dummies() method was used to create variables for the Algorithm and ProofType and then the StandardScaler fit_transfrom function was used to standardize the features.
+This had several parts to clean the data.  Only cryptocurrencies which were being traded, had no null values, and had values for mined coins were kept for processing.  The IsTrading column was dropped and the CoinNames were moved to a separate dataframe for later use.  The get_dummies() method was used to create variables for the Algorithm and ProofType and then the StandardScaler fit_transfrom function was used to standardize the features.
 
 ## Deliverable 2:  Reducing Data Dimensions Using PCA
 The PCA algorithm was performed to reduce the data to three principal components and store the resulting dataset in a new dataframe.
